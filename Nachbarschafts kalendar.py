@@ -10,8 +10,6 @@ anlaesse =  {
     "2025-07-06" : "Dorffest"
     
 }
-def aufrufen:
-    print(anlaesse[antwort])
-    
-    if antwort in anlaesse:
-        print("Am 
+ def zeige_anlaesse(datum):
+     if datum in anlaesse:
+         print("Am ", datum ist , anlaesse
