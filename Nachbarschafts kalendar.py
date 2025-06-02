@@ -2,7 +2,7 @@
 print("Willkommen beim Nachbarschafts Kalendar, geben sie einfach nur ein Datum ein und ich zeige ihnen dann was dort stattfindet. Geben sie nun ihr Datum ein:")
 antwort=input()
 anlaesse =  {
-    
+#In dieser Liste werden die anstehenden Anlässe aufgelistet.  
     "2025-12-24" : "Weihnachten"
     "2025-05-05" : "Flohmarkt"
     "2025-02-14" : "Valentistag"
@@ -12,4 +12,7 @@ anlaesse =  {
 }
  def zeige_anlaesse(datum):
      if datum in anlaesse:
-         print("Am ", datum ist , anlaesse
+         print("Am ", datum ist , anlaesse antwort)
+         
+    else:
+        print("An ihrem angegebenen Datum finden keine Anlässe statt")
