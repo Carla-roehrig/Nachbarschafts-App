@@ -3,7 +3,7 @@ print("Willkommen beim Nachbarschafts Kalendar, geben sie einfach nur ein Datum 
 #Der Benutzer wird nach einem Datum gefragt.
 datum=input("Gib ein Datum im Format JJJJ-MM-TT): ")
 anlaesse =  {
-#In dieser Liste (Dictionary) werden die anstehenden Anlässe aufgelistet.  
+#In dieser Liste (Dictionary) werden die anstehenden Anlässe aufgelistet.  #Dictionary von Chatgbt.
     "2025-12-24" : "Weihnachten"
     "2025-05-05" : "Flohmarkt"
     "2025-02-14" : "Valentistag"
